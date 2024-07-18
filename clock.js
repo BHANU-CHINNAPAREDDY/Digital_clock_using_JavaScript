@@ -21,7 +21,10 @@ function digitalClock() {
     
     //Minutes
     let mins=date.getMinutes();
-
+    if(mins<10){
+        mins="0"+mins
+    }
+    
     //Seconds
     let secs=date.getSeconds();
     if(secs<10){
