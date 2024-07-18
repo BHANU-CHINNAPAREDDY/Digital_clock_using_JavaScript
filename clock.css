@@ -1,0 +1,18 @@
+div{
+    text-align: center;
+    color: black;
+    font-size:4.8cm;
+    position: absolute;
+    top: auto;
+    left:6%;
+    right: 6%;
+    border: 6px solid darkcyan;
+    padding: 19px;
+}
+body{
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    font-size: 2.5cm;
+}
